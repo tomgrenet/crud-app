@@ -7,11 +7,11 @@ const mysql = require("mysql2");
 
 const db = mysql.createPool({
   connectionLimit: 10,
-  host: "34.163.31.4",
-  user: "root",
-  password: "fck_yqm0hnv*ZBA9fvq",
-  database: "cruddatabase",
-  port: "3306",
+  host: "",
+  user: "",
+  password: "",
+  database: "",
+  port: "",
 });
 
 // Apply the middleware (don't think about it, just add it.)
